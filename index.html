@@ -1,0 +1,835 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>O meu Portfólio</title>
+    <link href="css/skillbar.css" rel="stylesheet">
+    <link href="css/external.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/datatable.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
+    <link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="container main">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">O Meu Portfólio</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Sobre Mim</a></li>
+                <li><a href="javascript:void(0);">Competências</a></li>
+                <li><a href="javascript:void(0);">Tecnologias que domino</a></li>
+                <li><a href="javascript:void(0);">As Minhas Notas</a></li>
+                <li><a href="javascript:void(0);">FAQ</a></li>
+            </ul>
+
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<div class="clearfix"></div>
+
+<div class="container sobre-mim" id="about">
+
+    <div class="texto-sobre col-md-6">
+        <h2 class="sobre-mim">Sobre mim</h2>
+        <p class="txt">Chamo-me João Batista, sou de Santarém e nasci em Julho de 1994. Comecei a estudar Informática na Escola Dr. Ginestal Machado, onde acabei o curso de Programação de Sistemas Informáticos. Depois deste, licenciei-me em Informática, na Escola Superior de Gestão e Tecnologia de Santarém, com 21 anos.</p>
+    </div>
+    <div class="imagem-sobre col-md-6">
+        <ul class="slider-quemsou" width="300px">
+        <li class="slide"><img src="img/bx/mainfb.jpg"/></li>
+        </ul>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+<div class="container exp">
+    <h1 class="exp-titulo">Experiência profissional em projetos (ordem cronológica decrescente)</h1>
+    <div class="exp-tbl col-md-12">
+
+            <div class="col-md-3 exp-company">11-2017 até hoje</div>
+            <div class="col-md-9">
+                <ul>
+                    <li class="exp-company">
+                        SoftFinança (Consultor Sénior / Programador .NET)
+                    </li>
+                    <li>
+                        <p> Empresa responsável por desenvolvimentos na área da banca (SONAE / CTT / MPTS / SIBS).
+                        </p>
+                    </li>
+                   <li>
+                        <p>Desenvolvimento de uma XCFramework em Objective-C para criação de pinblocks para uma entidade bancária.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Lançamento de scripts e pacotes para qualidade / produção, monitorização de logs e validações.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Desenvolvimento consistente de diferentes transações MPTS / SIBS na aplicação core (Switch).
+                        </p>
+                    </li>
+                    <li>
+                        <p>Suporte ao cliente para reversões de transações, reconciliações, recolha de informação de um específico evento (MPTS / SIBS).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        Desenvolvimento de uma API que funciona como um Switch para uma entidade bancária. Receção de mensagem, envio para a entidade bancária, comunicação com ATM, consumo da resposta. Consulta de saldos / movimentos, depósitos / levantamentos de notas / moedas, autennticação de cartão. Logs em SQLite e Serilog.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Desenvolvimento de uma app em Xamarim que serve como dispensador de senhas para serviços de uma entidade bancária. Localização de lojas por mapa, consumo de API em xmlrpc, administração e publicação para beta testers (iOS).
+                        </p>
+                    </li>
+                    <li>
+                        <p>Criação de diagramas de arquitetura para distribuir projetos por máquina e ambientes.
+                        </p>
+                        <p>Desenvolvimento de projeto de Saldos Parqueados para os CTT / PayShop: Carregamentos de saldos e distribuição monetária por cada munícipio, de acordo com os carregamentos efetuados em cada escola. Desenvolvimento da lógica nesse contexto e comunicação com métodos de pagamento (via referência PayShop e MBWAY). Comunicação com APIs de Edubox para entrega / envio de informações. Possibilidade de criação de Municipios, Instituições, Carteiras, atualizações de saldos, fechos de conta. Projeto constituído por API, backoffice, tasks, comunicação com SIBS.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Desenvolvimento de importação de ficheiros para reconciliação de transferências, importação de ficheiros de conteúdo SIBS (participantes SEPA, ficheiros de liquidações, mandatos, referências),
+                        </p>
+                    </li>
+                    <li>
+                        <p>Desenvolvimento de transferências por batch, via ficheiro ou API, comunicação e tratamento de novas transações via Switch (core transacional).
+                        </p>
+                    </li>
+                    <li>
+                        <p>Desenvolvimento do fluxo SEPA débitos diretos, SEPA Transferências CT (Credit Transfer), débitos diretos Santader : Transferências, devoluções, notificações de débito direto, tratamento massivo de transferências, log de transações, backoffice, mobile, suporte ao cliente para reversões e seguimento de estados das transações.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Conversão de projeto em flash para HTML / JS que serve como um dispensador de senhas para uma entidade bancária.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Desenvolvimento de um projeto em Node.Js para comunicar coordenadas das viaturas do Regimento de Sapadores Bombeiros (PGIL).
+                        </p>
+                    </li>
+                    <li>
+                        <p>Desenvolvimento de uma library em Swift para criação de pinblocks para uma entidade bancária.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Desenvolvimento da funcionalidade de Agendamento de Transferências, disponível na aplicação Universo em mobile.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Criação de estruturas seguras de leitura de XML, utilizando estruturas XSD, com o propósito de enviar informações confidenciais para a SIBS. Criação de uma aplicação C# que testa XSD contra XML para verificar validação do ficheiro XML.</p>
+                    </li>
+                    <li>
+                        <p>Trabalho de atualização de frameworks e otimização da aplicação que trata de serviços de multibanco.</p>
+                    </li>
+                    <li>
+                        <p>Migração e refatorização de código JAVA, para C#, que tinha como objetivo estabelecer comunicação com a aplicação mencionada em cima. Encriptação de chaves e outros dados confidenciais e ligação por Sockets, utilizando um HSM.</p>
+                    </li>
+                    <li>
+                        <p>Criação de estruturas XSLT para extrair dados relevantes de XML. Criação de uma aplicação C# que retorna XML de acordo com XSLT referido.</p>
+                    </li>
+                    <li>
+                        <p>Desenvolvimento de funcionalidades específicas para a plataforma backoffice de uma entidade bancária. Multi-linguagem, módulo de verificação de legitimidade de notas e cheques inseridos em ATMs. </p>
+                    </li>
+                    <li>
+                        <p>Otimização de toda a plataforma backoffice de uma entidade bancária. Conceito de bundling e minification, compressão, divisão de javascripts e CSS, responsiveness, interatividade. Utilização de aplicação Lighthouse para estes mesmos testes.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 exp-company">07-2017 até 11-2017</div>
+            <div class="col-md-9">
+                <ul>
+                    <li class="exp-company">
+                        Mercado Eletrônico (Programador .NET)
+                    </li>
+                    <li>
+                        <p> Empresa B2B que consta em entregar soluções a clientes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Integração no desenvolvimento de uma aplicação web para a EDP, que tem como objetivo gerir transportes e pedidos de compra, por pedido de vários fornecedores.</p>
+                    </li>
+                    <li>
+                        <p>Desenvolvimento de funcionalidades e alterações na aplicação web para a EDP. </p>
+                    </li>
+                    <li>
+                        <p>Desenvolvimento de uma aplicação web que regista logs de sucesso ou erro de acordo com o que é inserido na base de dados, a partir dos métodos chamados por SOAP, com interface feita em páginas Razor e utilizando MVC. </p>
+                    </li>
+                    <li>
+                        <p>Desenvolvimento de uma API que tem como objetivo implementar novas funcionalidades para a aplicação da EDP, a partir do consumo de SOAP Web Services da API.</p>
+                    </li>
+                    <li>
+                        <p>Desenvolvimento de uma aplicação em powershell para consumir um ficheiro XML que com a sua estrutura XSD, insere todos os dados para a base de dados correspondente e faz outro tipo de operações no ficheiro.</p>
+                    </li>
+                    <li>
+                        <p>Contacto com clientes e a plataforma de chat com a equipa integrada no Brasil.</p>
+                    </li>
+                    <li>
+                        <p>Controlo de versões a partir do GitHub.</p>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="col-md-3 exp-company">04-2017 até 07-2017</div>
+            <div class="col-md-9">
+                <ul>
+                    <li class="exp-company">
+                        Agap2IT (Programador .NET)
+                    </li>
+                    <li>
+                        <p>Formação intensiva em linguagem C# da Microsoft, desenvolvimento de uma plataforma de e-learning, direccionada para empresas, onde alunos e professores comunicam entre si para realização de cursos, que contêm aulas e exames. Estes mesmos ficam em constante comunicação através de meios de mensagem ou seguir o feed de outros (similar a redes sociais populares), e implementa alguns aspetos de gamification.
+                        </p>
+                    </li>
+                    <li>
+                        <p> Análise, correção e otimização de código, restruturação do design e responsive web design, aplicação de novas features.</p>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="col-md-3 exp-company">01-2016 até 01-2017</div>
+            <div class="col-md-9">
+                <ul>
+                    <li class="exp-company">
+                        Terra das Ideias (Programador Web)
+                    </li>
+                    <li>
+                        <p>Desenvolvimento de uma variedade de websites responsive para clientes externos.</p>
+                        <p>Exemplos: <a href="http://miguelcardoso.com">Website de Fotografia</a> , <a href="http://casacadaval.pt">Casa Cadaval</a></p>
+                    </li>
+                    <li>
+                        <p>Realização de websites responsive de acordo com o design aprovado pelo cliente (dado pela pessoa responsável pela criação do design do site). Estes mesmos eram testados num domínio privado ao cliente, e depois de tudo estar concluído, era passado para um domínio final.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Constante contacto com o cliente era mantido para suporte técnico, em relação a spam nos emails, bloqueio de IPs, problemas no domínio, etc.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 exp-company">04-2015 até 08-2015</div>
+            <div class="col-md-9">
+                <ul>
+                    <li class="exp-company">
+                        HLink (Programador iOS)
+                    </li>
+                    <li>
+                        <p>Desenvolvimento de uma aplicação (iFarmácias) em Apple Watch, que consta em emparelhar
+                            várias funções já existentes na aplicação do iPhone.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Análise da aplicação desenvolvida no iPhone para arranjar soluções de sincronização de dados entre plataformas (Apple Watch e iPhone).</p>
+                    </li>
+                    <li>
+                        <p>Consumo de webservices dados pelo .net developer que retornavam dados necessários do utilizador e desenvolvimento do design inteiro da aplicação.</p>
+                    </li>
+                </ul>
+            </div>
+        <!--<div class="col-md-4 emp">Empresa</div><div class="col-md-8">Agap2IT</div>
+        <div class="col-md-4 func">FUNÇÃO</div><div class="col-md-8">Consultor</div>
+        <div class="col-md-6 exp-data">Data inicio: 04-2017</div><div class="col-md-6 exp-data">Data fim: N/A</div>
+        <div class="col-md-12 exp-desc">
+            <h3>Ambito do projeto</h3>
+            <p>Formação intensiva em linguagem C# da Microsoft, desenvolvimento de uma plataforma de e-learning, direccionada para empresas, onde alunos e professores comunicam entre si para realização de cursos, que contêm aulas e exames. Estes mesmos ficam em constante comunicação através de meios de mensagem ou seguir o feed de outros (similar a redes sociais populares), e implementa alguns aspetos de gamification.
+            </p>
+        </div>-->
+
+    </div>
+</div>
+
+
+<div class="domino" id="ling">
+   <h1 class="notas-titulo">Tecnologias que domino (Atualizado em 7 de Maio de 2022)</h1>
+    <p>Estrutura criada em <a href="https://datatables.net/">DataTables</a></p>
+    <!-- <ul data-role="listview">
+        <li class="tech">HTML</li>
+        <li class="tech">CSS</li>
+        <li class="tech">PHP</li>
+        <li class="tech">JQuery</li>
+        <li class="tech">Javascript</li>
+        <li class="tech">XML</li>
+        <li class="tech">JSON</li>
+        <li class="tech">MySQL</li>
+        <li class="tech">PL/SQL</li>
+        <li class="tech">Java</li>
+        <li class="tech">C#</li>
+        <li class="tech">Visual Basic</li>
+        <li class="tech">ActionScript 3</li>
+    </ul>-->
+    <table id="datatable-exp" class="display" width="100%" cellspacing="0">
+        <thead>
+        <tr>
+            <th>Tecnologia</th>
+            <th>Tipo</th>
+            <th>Tempo</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <th>Tecnologia</th>
+            <th>Tipo</th>
+            <th>Tempo</th>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <td>VB.NET</td>
+            <td>Desenvolvimento</td>
+            <td>1 ano</td>
+        </tr>
+        <tr>
+            <td>C#.NET</td>
+            <td>Desenvolvimento</td>
+            <td>7 anos</td>
+        </tr>
+        <tr>
+            <td>Windows Communication Foundation</td>
+            <td>Desenvolvimento</td>
+            <td>3.5 anos</td>
+        </tr>
+        <tr>
+            <td>Windows Presentation Foundation</td>
+            <td>Desenvolvimento</td>
+            <td>4 meses</td>
+        </tr>
+        <tr>
+            <td>PHP</td>
+            <td>Desenvolvimento</td>
+            <td>2 anos</td>
+        </tr>
+        <tr>
+            <td>Powershell</td>
+            <td>Desenvolvimento</td>
+            <td>3 meses</td>
+        </tr>
+        <tr>
+            <td>JQuery</td>
+            <td>Desenvolvimento</td>
+            <td>5.5 anos</td>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Desenvolvimento</td>
+            <td>6 anos</td>
+        </tr>
+        <tr>
+            <td>Javascript</td>
+            <td>Desenvolvimento</td>
+            <td>6 anos</td>
+        </tr>
+        <tr>
+            <td>JSON / XML</td>
+            <td>Desenvolvimento</td>
+            <td>7 anos</td>
+        </tr>
+        <tr>
+            <td>Swift</td>
+            <td>Desenvolvimento</td>
+            <td>1 ano</td>
+        </tr>
+        <tr>
+            <td>CSS / Bootstrap</td>
+            <td>Desenvolvimento</td>
+            <td>6 anos</td>
+        </tr>
+        <tr>
+            <td>JAVA</td>
+            <td>Desenvolvimento</td>
+            <td>2 anos</td>
+        </tr>
+        <tr>
+            <td>MySQL / TSQL</td>
+            <td>Desenvolvimento</td>
+            <td>7 anos</td>
+        </tr>
+        <tr>
+            <td>PLSQL</td>
+            <td>Desenvolvimento</td>
+            <td>4 anos</td>
+        </tr>
+        <tr>
+            <td>ActionScript 3</td>
+            <td>Desenvolvimento</td>
+            <td>3 meses</td>
+        </tr>
+        <tr>
+            <td>MVC</td>
+            <td>Desenvolvimento</td>
+            <td>5 anos</td>
+        </tr>
+        <tr>
+            <td>Azure</td>
+            <td>Desenvolvimento</td>
+            <td>6 meses</td>
+        </tr>
+        <tr>
+            <td>SOAP</td>
+            <td>Arquiteturas</td>
+            <td>4 anos</td>
+        </tr>
+        <tr>
+            <td>REST</td>
+            <td>Arquiteturas</td>
+            <td>4 anos</td>
+        </tr>
+        <tr>
+            <td>Visual Studio</td>
+            <td>Ferramentas</td>
+            <td>7 anos</td>
+        </tr>
+        <tr>
+            <td>Eclipse</td>
+            <td>Ferramentas</td>
+            <td>3 anos</td>
+        </tr>
+        <tr>
+            <td>Adobe Photoshop</td>
+            <td>Ferramentas</td>
+            <td>2 anos</td>
+        </tr>
+        <tr>
+            <td>Android Studio</td>
+            <td>Ferramentas</td>
+            <td>1 ano</td>
+        </tr>
+        <tr>
+            <td>Xcode</td>
+            <td>Ferramentas</td>
+            <td>1 ano</td>
+        </tr>
+        <tr>
+            <td>NetBeans</td>
+            <td>Ferramentas</td>
+            <td>6 meses</td>
+        </tr>
+        <tr>
+            <td>GitHub</td>
+            <td>Controlo de Versões</td>
+            <td>4 anos</td>
+        </tr>
+        <tr>
+            <td>TFS (Team Foundation Server)</td>
+            <td>Controlo de Versões</td>
+            <td>4 anos</td>
+        </tr>
+        <tr>
+            <td>Xamarim</td>
+            <td>Desenvolvimento</td>
+            <td>3 meses</td>
+        </tr>
+        <tr>
+            <td>Node.Js</td>
+            <td>Desenvolvimento</td>
+            <td>3 meses</td>
+        </tr>
+
+
+        </tbody>
+    </table>
+</div>
+<div class="clearfix"></div>
+
+
+
+<div class="sec-certificates container" id="certf">
+    <h1 class="notas-titulo">Certificações</h1>
+    <p class="txt">Para demonstrar o meu conhecimento, tenho em posse algumas certificações profissionais pela Microsoft.</p>
+    <a target="_blank" class="txt" style="display:block;" href="https://www.credly.com/badges/13ccbbcd-80af-4736-96ee-00ff90cd1a05">MCSD: App Builder - Certified 2018</a>
+    <a target="_blank" class="txt" style="display:block;" href="https://www.youracclaim.com/badges/dadfde1d-fd38-4d41-9df7-a68816828315/public_url">MCSA: Web Applications - Certified 2018</a>
+    <a class="txt" style="display:block;" href="https://www.youracclaim.com/badges/5d449f8d-8514-4314-aaea-b9c675afde7d/public_url">Exam 483: Programming in C#</a>
+    <a class="txt" style="display:block;" href="https://www.youracclaim.com/badges/df380d4b-5fc6-4f89-8c59-d7ce1b8e6fb8/public_url">Exam 486: Developing ASP.NET MVC Web Applications</a>
+    <a class="txt" style="display:block;" href="https://www.youracclaim.com/badges/ae5d4c07-0807-4861-9fea-fcca149d2cc3/public_url">Exam 480: Programming in HTML5 with JavaScript and CSS3</a>
+</div>
+<?php //require_once("inc/competencias.php");?>
+
+
+
+<div class="container" id="notas">
+    <h1 class="notas-titulo">Formação Acadêmica</h1>
+    <p class="txt">Do ano 2009 até 2012, desenvolvi os meus conhecimentos na área de programação, graças ao curso de programação de sistemas informáticos, na escola Dr. Ginestal Machado, com uma média de 17 valores.
+    Do ano 2012 até 2015, estive na Escola Superior de Gestão e Tecnologia de Santarém, a tirar licenciatura em Informática, terminando com uma média de 15 valores.</p>
+    <p class="txt"> Deixo em baixo algumas das cadeiras relavantes, praticadas nesta licenciatura, tal como as notas.</p>
+    <div class="button-group filters-button-group" id="filters">
+        <button type="button" data-filter="*" class="btn btn-primary todos is-checked">Todas</button>
+        <button type="button" data-filter=".web" class="btn btn-secondary web-color">Programação Web</button>
+        <button type="button" data-filter=".java" class="btn btn-secondary java-color">Java / Mobile</button>
+        <button type="button" data-filter=".sql" class="btn btn-secondary sql-color">MySQL / PLSQL</button>
+        <button type="button" data-filter=".multimedia" class="btn btn-secondary multimedia-color">Photoshop / Flash</button>
+        <button type="button" data-filter=".microsoft" class="btn btn-secondary microsoft-color">C#, Azure, Web Services</button>
+        <button type="button" data-filter=".redes" class="btn btn-secondary redes-color">Administração de Redes</button>
+        <button type="button" data-filter=".gest" class="btn btn-secondary gest-color">Gestão</button>
+
+    </div>
+<div class="clearfix"></div>
+<div class="notas">
+
+<div class="skillbar clearfix redes " data-percent="65%">
+    <div class="skillbar-title" style="background: #2980b9;"><span class="long">Arquitectura de Computadores e Sist. Operativos</span></div>
+    <div class="skillbar-bar" style="background: #2980b9;"></div>
+    <div class="skill-bar-percent">13</div>
+</div> <!-- End Skill Bar -->
+
+
+
+<div class="skillbar clearfix redes" data-percent="70%">
+    <div class="skillbar-title" style="background: #2980b9;"><span>Redes de Computadores</span></div>
+    <div class="skillbar-bar" style="background: #2980b9;"></div>
+    <div class="skill-bar-percent">14</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix sql" data-percent="75%">
+    <div class="skillbar-title" style="background: #27ae60;"><span>Bases de Dados I</span></div>
+    <div class="skillbar-bar" style="background: #27ae60;"></div>
+    <div class="skill-bar-percent">15</div>
+</div> <!-- End Skill Bar -->
+
+
+    <div class="skillbar clearfix web" data-percent="55%">
+        <div class="skillbar-title" style="background: #46465e;"><span>Sistemas Web</span></div>
+        <div class="skillbar-bar" style="background: #46465e;"></div>
+        <div class="skill-bar-percent">11</div>
+    </div> <!-- End Skill Bar -->
+
+    <div class="skillbar clearfix multimedia" data-percent="80%">
+        <div class="skillbar-title" style="background: #333333;"><span>Sistemas Multimédia</span></div>
+        <div class="skillbar-bar" style="background: #333333;"></div>
+        <div class="skill-bar-percent">16</div>
+    </div> <!-- End Skill Bar -->
+
+
+    <div class="skillbar clearfix java" data-percent="90%">
+        <div class="skillbar-title" style="background: #d35400;"><span>Fundamentos de Programação</span></div>
+        <div class="skillbar-bar" style="background: #e67e22;"></div>
+        <div class="skill-bar-percent">18</div>
+    </div> <!-- End Skill Bar -->
+
+    <div class="skillbar clearfix java" data-percent="70%">
+        <div class="skillbar-title" style="background: #d35400;"><span>Linguagens de Programação</span></div>
+        <div class="skillbar-bar" style="background: #e67e22;"></div>
+        <div class="skill-bar-percent">14</div>
+    </div> <!-- End Skill Bar -->
+
+    <div class="skillbar clearfix java" data-percent="80%">
+        <div class="skillbar-title" style="background: #d35400;"><span>Programação Orientada aos Objetos</span></div>
+        <div class="skillbar-bar" style="background: #e67e22;"></div>
+        <div class="skill-bar-percent">16</div>
+    </div> <!-- End Skill Bar -->
+
+    <div class="skillbar clearfix gest" data-percent="80%">
+        <div class="skillbar-title" style="background: purple;"><span class="long">Análise e Concepção de Sistemas de Informação</span></div>
+        <div class="skillbar-bar" style="background: purple;"></div>
+        <div class="skill-bar-percent">16</div>
+    </div> <!-- End Skill Bar -->
+
+    <div class="skillbar clearfix web" data-percent="100%">
+        <div class="skillbar-title" style="background: #46465e;"><span>Integração de Sistemas I</span></div>
+        <div class="skillbar-bar" style="background: #46465e;"></div>
+        <div class="skill-bar-percent">20</div>
+    </div> <!-- End Skill Bar -->
+
+    <div class="skillbar clearfix sql" data-percent="90%">
+        <div class="skillbar-title" style="background: #27ae60;"><span>Bases de Dados II</span></div>
+        <div class="skillbar-bar" style="background: #27ae60;"></div>
+        <div class="skill-bar-percent">18</div>
+    </div> <!-- End Skill Bar -->
+
+    <div class="skillbar clearfix redes" data-percent="70%">
+        <div class="skillbar-title" style="background: #2980b9;"><span>Serviços de Redes</span></div>
+        <div class="skillbar-bar" style="background: #2980b9;"></div>
+        <div class="skill-bar-percent">14</div>
+    </div> <!-- End Skill Bar -->
+
+    <div class="skillbar clearfix web" data-percent="95%">
+        <div class="skillbar-title" style="background: #46465e;"><span>Tecnologias da Internet</span></div>
+        <div class="skillbar-bar" style="background: #46465e;"></div>
+        <div class="skill-bar-percent">19</div>
+    </div> <!-- End Skill Bar -->
+
+    <div class="skillbar clearfix multimedia" data-percent="90%">
+        <div class="skillbar-title" style="background: #333333;"><span>Aplicações Multimédia</span></div>
+        <div class="skillbar-bar" style="background: #333333;"></div>
+        <div class="skill-bar-percent">18</div>
+    </div> <!-- End Skill Bar -->
+    <div class="skillbar clearfix redes" data-percent="70%">
+        <div class="skillbar-title" style="background: #2980b9;"><span class="long">Administração e Segurança de Sistemas e de Redes</span></div>
+        <div class="skillbar-bar" style="background: #2980b9;"></div>
+        <div class="skill-bar-percent">14</div>
+    </div> <!-- End Skill Bar -->
+    <div class="skillbar clearfix microsoft" data-percent="55%">
+        <div class="skillbar-title" style="background: #2c3e50;"><span>Integração de Sistemas II</span></div>
+        <div class="skillbar-bar" style="background: #2c3e50;"></div>
+        <div class="skill-bar-percent">11</div>
+    </div> <!-- End Skill Bar -->
+    <div class="skillbar clearfix gest" data-percent="70%">
+        <div class="skillbar-title" style="background:purple;"><span>Sistemas de Informação para a Gestão</span></div>
+        <div class="skillbar-bar" style="background: purple;"></div>
+        <div class="skill-bar-percent">14</div>
+    </div> <!-- End Skill Bar -->
+    <div class="skillbar clearfix java" data-percent="70%">
+        <div class="skillbar-title" style="background: #d35400;"><span>Desenvolvimento de Dispositivos Móveis</span></div>
+        <div class="skillbar-bar" style="background: #e67e22;"></div>
+        <div class="skill-bar-percent">14</div>
+    </div> <!-- End Skill Bar -->
+    <div class="skillbar clearfix web" data-percent="75%">
+        <div class="skillbar-title" style="background: #46465e;"><span>Aplicações de Código Aberto</span></div>
+        <div class="skillbar-bar" style="background: #46465e;"></div>
+        <div class="skill-bar-percent">15</div>
+    </div> <!-- End Skill Bar -->
+    <div class="skillbar clearfix java" data-percent="85%">
+        <div class="skillbar-title" style="background: #d35400;"><span>Projeto Aplicado (Estágio) </span></div>
+        <div class="skillbar-bar" style="background: #e67e22;"></div>
+        <div class="skill-bar-percent">17</div>
+    </div> <!-- End Skill Bar -->
+    <div class="skillbar clearfix microsoft" data-percent="90%">
+        <div class="skillbar-title" style="background: #2c3e50;"><span>Desenvolvimento de Aplicações na Internet</span></div>
+        <div class="skillbar-bar" style="background: #2c3e50;"></div>
+        <div class="skill-bar-percent">18</div>
+    </div> <!-- End Skill Bar -->
+
+</div>
+</div>
+
+
+
+<div class="sec-faq container" id="faq">
+    <h1>FAQ</h1>
+    <div class="bloco-q">
+        <h2 class="pergunta">Como surgiu este website?</h2>
+        <p class="resposta">Este website foi criado no meu tempo livre, a partir de 2016, mas ao mesmo tempo serve de portfólio para dar uma amostra das minhas capacidades. </p>
+    </div>
+<!--    <div class="bloco-q">-->
+<!--        <h2 class="pergunta">Quanto tempo demoraste a fazer este website?</h2>-->
+<!--        <p class="resposta"> Cerca de 12 horas. A tradução para inglês foi o mais demorado. </p>-->
+<!--    </div>-->
+    <div class="bloco-q">
+        <h2 class="pergunta">Foi usado algum template para a criação do website?</h2>
+        <p class="resposta"> Não, foi construído do zero. Alguns plugins/extras foram no entanto retirados e personalizados ao meu gosto.  </p>
+    </div>
+    <div class="bloco-q">
+        <h2 class="pergunta">O website é visível no meu telemóvel?</h2>
+        <p class="resposta"> Sim, todo o website é responsive (adapta-se a qualquer tamanho de ecrã). </p>
+    </div>
+</div>
+</div>
+<div class="sec-contact">
+    <div class="foot">
+            <div class="col-md-6 center">
+
+                <img class="img-ctd2" src="img/compt/email-icon.png" width="50px" height="50px"/>
+                <p class="desc2" style="font-family: Calibri; font-weight:bold; color:white"><a href="mailto:joao.batista.wk@gmail.com"> joao.batista.wk@gmail.com</a></p>
+
+            </div>
+            <div class="col-md-6 center">
+
+                <img class="img-ctd2" src="img/compt/phone-icon.png" width="50px" height="50px"/>
+                <p class="desc2" style="font-family: Calibri; font-weight:bold; color:white">+351 962042822</p>
+
+            </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="container">
+            <div class="row down">
+                <p class="realizado2" style="font-family: Arimo; color:white"> Realizado por João Batista. Este website foi realizado para propósitos de suplemento ao CV. </p>
+            </div>
+
+
+    </div>
+</div>
+</div>
+
+
+
+<!--<div class="sec-contact">
+    <div class="container">
+        <div class="col-md-6">
+            <div class="row">
+                <img class="img-ctd" src="img/compt/email-icon.png" width="50px" height="50px"/>
+                <p class="desc" style="font-family: Calibri; font-weight:bold; color:white"><a href="mailto:joao.batista.wk@gmail.com"> joao.batista.wk@gmail.com</a></p>
+            </div>
+            <div class="row">
+                <img class="img-ctd" src="img/compt/phone-icon.png" width="50px" height="50px"/>
+                <p class="desc" style="font-family: Calibri; font-weight:bold; color:white">+351 962042822</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <p class="realizado" style="font-family: Arimo; color:white"> Realizado por João Batista. Este website foi realizado para propósitos de suplemento ao CV. </p>
+            </div>
+        </div>
+
+    </div>
+</div>--></body>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="js/datatable.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+
+
+
+<script>
+    $(document).ready(function(){
+        if ($(window).width() < 500){
+            $('#datatable-exp').DataTable( {
+                "columnDefs": [
+                    {
+                        "targets": [ 2 ],
+                        "visible": false,
+                        "searchable": false
+                    }
+                ],
+                "language": {
+                    "lengthMenu": "Mostrar _MENU_ registos por página",
+                    "zeroRecords": "Nenhum registo encontrado",
+                    "sSearch": "Procurar:",
+                    "sInfo": "A mostrar de _START_ até _END_ de _TOTAL_ registos",
+                    "sInfoEmpty": "Não existe registos",
+                    "infoFiltered": "(Filtrado de _MAX_ registos em total)"
+                }
+            } );
+        }
+        else{
+            $('#datatable-exp').DataTable( {
+                responsive: true,
+                "language": {
+                    "lengthMenu": "Mostrar _MENU_ registos por página",
+                    "zeroRecords": "Nenhum registo encontrado",
+                    "sSearch": "Procurar:",
+                    "sInfo": "A mostrar de _START_ até _END_ de _TOTAL_ registos",
+                    "sInfoEmpty": "Não existe registos",
+                    "infoFiltered": "(Filtrado de _MAX_ registos em total)"
+                }
+            } );
+        }
+
+    $('.slider-quemsou').bxSlider({
+        auto: false,
+        pager: false,
+        slideWidth: 300
+    });
+        jQuery('.skillbar').each(function(){
+            jQuery(this).find('.skillbar-bar').animate({
+                width:jQuery(this).attr('data-percent')
+            },6000);
+        });
+   /* $('.notas').isotope({
+        // options
+        itemSelector: '.grid-item',
+        layoutMode: 'fitRows'
+    });*/
+
+        $( function() {
+            // quick search regex
+            var qsRegex;
+            var buttonFilter;
+
+            // init Isotope
+            var $container = $('.notas').isotope({
+                itemSelector: '.skillbar',
+                layoutMode: 'fitRows',
+                filter: function() {
+                    var $this = $(this);
+                    var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+                    var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+                    return searchResult && buttonResult;
+                }
+            });
+
+            $('#filters').on( 'click', 'button', function() {
+
+                buttonFilter = $( this ).attr('data-filter');
+                $container.isotope();
+            });
+
+            // use value of search field to filter
+            var $quicksearch = $('#quicksearch').keyup( debounce( function() {
+                qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+                $container.isotope();
+            }) );
+
+
+            // change is-checked class on buttons
+            $('.button-group').each( function( i, buttonGroup ) {
+                var $buttonGroup = $( buttonGroup );
+                $buttonGroup.on( 'click', 'btn', function() {
+                    $buttonGroup.find('.is-checked').removeClass('is-checked');
+                    $( this ).addClass('is-checked');
+                });
+            });
+            
+
+        });
+
+// debounce so filtering doesn't happen every millisecond
+        function debounce( fn, threshold ) {
+            var timeout;
+            return function debounced() {
+                if ( timeout ) {
+                    clearTimeout( timeout );
+                }
+                function delayed() {
+                    fn();
+                    timeout = null;
+                }
+                setTimeout( delayed, threshold || 100 );
+            };
+        }
+        $("#navbar li a").click(function(){
+            $("#navbar").removeClass("in");
+            switch ($(this).text()){
+                case "Sobre Mim":
+                    $("html, body").animate({
+                        scrollTop: $("#about").offset().top - 50
+                    }, 1000);
+            break;
+        case "Competências":
+            $('html, body').animate({
+                scrollTop:  $("#compt").offset().top - 50
+            }, 1000);
+            break;
+        case "Tecnologias que domino":
+            $('html, body').animate({
+                scrollTop:  $("#ling").offset().top - 50
+            }, 1000);
+            break;
+        case "As Minhas Notas":
+            $('html, body').animate({
+                scrollTop:  $("#notas").offset().top - 50
+            }, 1000);
+            break;
+        case "FAQ":
+            $('html, body').animate({
+                scrollTop:  $("#faq").offset().top - 50
+            }, 1000);
+            break;
+            return false;
+        }
+    });
+
+    });
+
+
+</script>
+
+</html>
